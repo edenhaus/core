@@ -57,6 +57,7 @@ from .const import (
 from .entity import (
     Camera,
     CameraCapabilities,
+    CameraEntityCapabilities,
     CameraEntityDescription,
     async_get_still_stream,
 )
@@ -120,6 +121,7 @@ __all__ = [
     "TOKEN_CHANGE_INTERVAL",
     "Camera",
     "CameraCapabilities",
+    "CameraEntityCapabilities",
     "CameraEntityDescription",
     "CameraEntityFeature",
     "CameraEntityStateAttribute",
